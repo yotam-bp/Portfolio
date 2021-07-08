@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'yotam.JPG',
+  img: 'Yotam.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'Appsus',
     info: '',
     info2: '',
-    url: 'https://yotam-bp.github.io/Appsus/',
+    url: 'https://-bp.github.io/Appsus/',
     repo: 'https://github.com/yotam-bp/Appsus', // if no repo, the button will not show up
   },
   {
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'yotyyybp@gmail.com',
 };
 
 // FOOTER DATA
