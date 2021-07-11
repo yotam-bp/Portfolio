@@ -44,10 +44,14 @@ const Projects = () => {
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
                         <p>
+                          <b>About The App: </b>
                           {info ||
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
-                        <p className="mb-4">{info2 || ''}</p>
+                        <p className="mb-4">
+                          <b>Technologies stack: </b>
+                          {info2 || ''}
+                        </p>
                       </div>
                       <a
                         target="_blank"
@@ -110,6 +114,14 @@ const Projects = () => {
               </Row>
             );
           })}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-btn cta-btn--hero"
+            href="https://github.com/yotam-bp"
+          >
+            See More Here
+          </a>
         </div>
       </Container>
     </section>

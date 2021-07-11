@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Yotam Ben-Porat Dev', // e.g: 'Name | Developer'
+  title: 'Yotam Ben Porat Dev', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my website', // e.g: Welcome to my website
 };
@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Yotam Ben-Porat',
+  name: 'Yotam Ben Porat',
   subtitle: "I'm a Web Developer.",
   cta: '',
 };
@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'jaunt.png',
     title: 'Jaunt',
     info: '',
-    info2: '',
+    info2: 'React, Redux, Nodejs, MongoDB, Sass, Express, Socket.io, Bcrypt, Cors.',
     url: 'https://travel-jaunt.herokuapp.com/#/',
     repo: 'https://github.com/yotam-bp/Jaunt-App', // if no repo, the button will not show up
   },
@@ -40,8 +40,8 @@ export const projectsData = [
     img: 'appsus.png',
     title: 'Appsus',
     info: '',
-    info2: '',
-    url: 'https://-bp.github.io/Appsus/',
+    info2: 'React, JavaScript, Html, Css',
+    url: 'https://yotam-bp.github.io/Appsus',
     repo: 'https://github.com/yotam-bp/Appsus', // if no repo, the button will not show up
   },
   {
@@ -49,7 +49,7 @@ export const projectsData = [
     img: 'meme-gen.png',
     title: 'Meme Generator',
     info: '',
-    info2: '',
+    info2: 'JavaScript, Html, Css',
     url: 'https://yotam-bp.github.io/meme-generator',
     repo: 'https://github.com/yotam-bp/meme-generator', // if no repo, the button will not show up
   },
@@ -65,7 +65,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-
     {
       id: nanoid(),
       name: 'facebook',
