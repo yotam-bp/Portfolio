@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'jaunt.png',
     title: 'Jaunt',
-    info: '',
+    info: 'Vacation search engine around the world based on AirBnb. An end-to-end app that incorporates the most popular tools for building a large system.',
     info2: 'React, Redux, Nodejs, MongoDB, Sass, Express, Socket.io, Bcrypt, Cors.',
     url: 'https://travel-jaunt.herokuapp.com/#/',
     repo: 'https://github.com/yotam-bp/Jaunt-App', // if no repo, the button will not show up
@@ -39,7 +39,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'appsus.png',
     title: 'Appsus',
-    info: '',
+    info: 'A tool for managing three application interfaces into one system. Users can navigate easily through books, notes, and emails.',
     info2: 'React, JavaScript, Html, Css',
     url: 'https://yotam-bp.github.io/Appsus',
     repo: 'https://github.com/yotam-bp/Appsus', // if no repo, the button will not show up
@@ -48,7 +48,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'meme-gen.png',
     title: 'Meme Generator',
-    info: '',
+    info: 'A pure vanilla JS app, based on  MVC principles. You can create a meme from a photo library, to edit and save it. In addition, it is possible to download the meme to the device used or share it on Facebook.',
     info2: 'JavaScript, Html, Css',
     url: 'https://yotam-bp.github.io/meme-generator',
     repo: 'https://github.com/yotam-bp/meme-generator', // if no repo, the button will not show up
