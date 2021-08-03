@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'Yotam.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: `I’m a Full-Stack Web Developer located in Tel-Aviv. I have a serious passion for learning new things and create them by myself`,
+  paragraphTwo: 'Well-organised calm person, problem solver, independent employee with high attention to details. Addicted to surfing, outdoor activities and sports in general, finds the capital markets very attractive.',
+  paragraphThree: 'I’m curious about every aspect of the web and enjoy working on ambitious projects with incredible people.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
